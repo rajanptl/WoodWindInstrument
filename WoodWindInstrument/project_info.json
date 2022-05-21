@@ -1,0 +1,5 @@
+{
+  "name": "Lab 3",
+  "group": 0,
+  "entrypoint": "project/instrument.py"
+}
