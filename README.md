@@ -16,9 +16,11 @@ Figure 1: Picture of the entire system excluding the speaker
 
 
 
+# How it works
+
+The robot is designed such that it plays a musical note based on the distance between the users’ hands and the Ultrasonic Sensor installed on the instrument when it is switched on (this switching mechanism was controlled by a Touch Sensor).
+
 IN PROGRESS
-
-
 
 
 
