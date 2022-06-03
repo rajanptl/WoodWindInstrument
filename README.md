@@ -27,4 +27,38 @@ Figure 2 : Picture of the note selection subsystem where Note #1 is E4 , Note #2
 
 
 
+## Project Organization
 
+In this section, we go over the files and folders included in this project
+listed in alphabetical order.
+
+- `lib`: contains libraries used by the robot such as
+  the simpleaudio sound library.
+- `project`: all Python files in this folder run on the robot.
+  - [`doc`](project/doc): documentation for the brick API
+  (Application Programming Interface)
+  - [`utils`](project/utils): brick-related utilities for this project.
+    - `brick.py`: the main module for interacting with the brick hardware.
+    - `sound.py`: module that allows you to play sounds.
+    It depends on the simpleaudio library.
+  - [**`instrument.py`**](project/instrument.py):
+  **Implement your instrument in this file.** You may use other files,
+  but you do not need to. Complete the items marked with `TODO`, then
+  remove the `TODO`s when you are done.
+- `scripts`:
+  - `reset_brick.py`: If your program does not exit correctly, eg,
+  if you are stuck in an infinite loop, run this script on the brick to reset it.
+- `deploy_to_robot.py`: a script to deploy the code to the robot from your computer.
+  It offers the following options:
+  - Deploy DPM Project on Robot without running:
+  copy the `lab3` folder to the robot.
+  - Deploy and run DPM Project on Robot:
+  copy the `lab3` folder to the robot and run the file specified
+  in `project_info.json`.
+  - Reset Robot: reset the robot.
+- **`project_info.json`**: a file containing information about the project.
+- `robot_setup.sh`: a script to install the simpleaudio library on
+the brick as described above.
+
+# References 
+Special thanks to the TA's and the Professors from the course Design Principles and Methods in Winter 2022 for providing the WoodWindInstrument folder and everything necessary for completing this project. 
