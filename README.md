@@ -1,9 +1,11 @@
-Note: The source code can be found by navigating through the WoodWindInstrument folder (WoodWindInstrument > project > instrument.py) 
+
 
 # Table of Content
 - [Table of Content](#table-of-content)
 - [Description of the machine](#description-of-the-machine)
 - [How it works](#how-it-works)
+- [Project Organization](#project-organization)
+- [References](#references)
 
 # Description of the machine
 The system consists of a BrickPi, a battery pack, a small speaker, a EV3 Touch sensor, an EV3 Ultrasonic Sensor, Lego pieces and a few other parts distributed by the University. The structure was made by keeping in mind that the BrickPi and the battery pack should not fall out of the instrument as this might damage the hardware. The Touch Sensor and the Ultrasonic Sensor were connected to ports 1 and 2 of the BrickPi respectively. To ensure that the sensors do not disconnect from the BrickPi or dangle around, they were both fixed onto the structure of the instrument using the materials provided by the University. Finally, the small speaker was connected onto the audio jack of the BrickPi and just like the sensors, it was also fixed onto the structure of the instrument. A representation of the entire instrument can be seen in Figure 1.  
@@ -26,8 +28,7 @@ Figure 2 : Picture of the note selection subsystem where Note #1 is E4 , Note #2
 </p>
 
 
-
-## Project Organization
+# Project Organization
 
 In this section, we go over the files and folders included in this project
 listed in alphabetical order.
@@ -42,11 +43,9 @@ listed in alphabetical order.
     - `sound.py`: module that allows you to play sounds.
     It depends on the simpleaudio library.
   - [**`instrument.py`**](project/instrument.py):
-  **Implement your instrument in this file.** You may use other files,
-  but you do not need to. Complete the items marked with `TODO`, then
-  remove the `TODO`s when you are done.
+  **The implementation of the instrument can be found in this file.**
 - `scripts`:
-  - `reset_brick.py`: If your program does not exit correctly, eg,
+  - `reset_brick.py`: If the program does not exit correctly, eg,
   if you are stuck in an infinite loop, run this script on the brick to reset it.
 - `deploy_to_robot.py`: a script to deploy the code to the robot from your computer.
   It offers the following options:
