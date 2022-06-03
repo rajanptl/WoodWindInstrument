@@ -36,9 +36,9 @@ listed in alphabetical order.
 - `lib`: contains libraries used by the robot such as
   the simpleaudio sound library.
 - `project`: all Python files in this folder run on the robot.
-  - [`doc`](project/doc): documentation for the brick API
+  - [`doc`](WoodWindInstrument/project/doc): documentation for the brick API
   (Application Programming Interface)
-  - [`utils`](project/utils): brick-related utilities for this project.
+  - [`utils`](WoodWindInstrument/project/utils): brick-related utilities for this project.
     - `brick.py`: the main module for interacting with the brick hardware.
     - `sound.py`: module that allows you to play sounds.
     It depends on the simpleaudio library.
