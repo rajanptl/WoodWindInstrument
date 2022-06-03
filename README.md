@@ -42,7 +42,7 @@ listed in alphabetical order.
     - `brick.py`: the main module for interacting with the brick hardware.
     - `sound.py`: module that allows you to play sounds.
     It depends on the simpleaudio library.
-  - [**`instrument.py`**](project/instrument.py):
+  - [**`instrument.py`**](WoodWindInstrument/project/instrument.py):
   **The implementation of the instrument can be found in this file.**
 - `scripts`:
   - `reset_brick.py`: If the program does not exit correctly, eg,
